@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Sharing Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to PhotoShare</h1>
+    <p>Share your best moments with the world!</p>
+  </header>
+  <main>
+    <section id="upload">
+      <h2>Upload Your Photo</h2>
+      <form id="uploadForm">
+        <input type="file" id="photo" name="file" accept="image/*">
+        <button type="submit">Upload</button>
+      </form>
+      <div id="uploadStatus"></div>
+    </section>
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div id="photos"></div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 PhotoShare. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
