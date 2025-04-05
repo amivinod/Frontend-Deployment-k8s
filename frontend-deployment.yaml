@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: vinod3939/frontend-app:latest
+        image: vinod3939/app:application
         ports:
         - containerPort: 80
 
