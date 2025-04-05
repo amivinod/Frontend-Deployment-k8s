@@ -11,7 +11,8 @@ document.getElementById('uploadForm').onsubmit = async function (e) {
 
     statusDiv.textContent = "Uploading...";
 
-    const backendUrl = "http://18.61.71.161:5000/upload"; // Replace <EC2-Public-IP>
+    const backendUrl = "http://<BACKEND_URL>/upload"; // Placeholder - will be replaced by Jenkins
+
 
     const formData = new FormData();
     formData.append('file', file);
