@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: vinod3939/app:application
+        image: vinod3939/vinu:hibye
         ports:
         - containerPort: 80
 
